@@ -1,3 +1,6 @@
 Navbar -> https://getbootstrap.com/docs/4.0/components/navbar/
 Buttons -> https://getbootstrap.com/docs/4.0/components/buttons/
 Spacing -> https://getbootstrap.com/docs/4.0/utilities/spacing/
+Typography -> https://getbootstrap.com/docs/4.0/content/typography/
+Forms -> https://getbootstrap.com/docs/4.0/components/forms/
+Input Groups -> https://getbootstrap.com/docs/4.0/components/input-group/
