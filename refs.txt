@@ -4,3 +4,4 @@ Spacing -> https://getbootstrap.com/docs/4.0/utilities/spacing/
 Typography -> https://getbootstrap.com/docs/4.0/content/typography/
 Forms -> https://getbootstrap.com/docs/4.0/components/forms/
 Input Groups -> https://getbootstrap.com/docs/4.0/components/input-group/
+Carousel -> https://getbootstrap.com/docs/4.0/components/carousel/
