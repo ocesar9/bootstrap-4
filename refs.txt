@@ -9,3 +9,4 @@ Collapse -> https://getbootstrap.com/docs/4.0/components/collapse/
 Dropdown -> https://getbootstrap.com/docs/4.0/components/dropdowns/
 Modal -> https://getbootstrap.com/docs/4.0/components/modal/
 Forms -> https://getbootstrap.com/docs/4.0/components/forms/
+Table -> https://getbootstrap.com/docs/4.0/content/tables/
