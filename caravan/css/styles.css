@@ -35,4 +35,11 @@ body{
 
 }
 
+.list-social-media li + li {
+    margin-left: 1rem;
+}
+.list-social-media li{
+    width: 128px;
+}
+
 
