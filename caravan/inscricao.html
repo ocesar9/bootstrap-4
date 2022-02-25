@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Caravan - Contato</title>
+    <title>Caravan - Inscricao</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -87,7 +87,7 @@
             <a href="planos.html" class="nav-link"> Planos </a>
           </li>
           <li class="nav-item">
-            <a href="contato.html" class="nav-link active"> Contato </a>
+            <a href="contato.html" class="nav-link"> Contato </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link" data-toggle="modal" data-target="#modalLogin"> Login </a>
@@ -104,102 +104,57 @@
     <section class="container">
       <div class="my-5 text-center">
         <span class="h6 d-block">
-          POSSUI ALGUMA DUVIDA?
-          <h1 class="display-4 text-primary">Fale Conosco</h1>
+          PROGRAME A VIAGEM DO SEU SONHO
+          <h1 class="display-4 text-primary">INSCREVA-SE</h1>
         </span>
       </div>
       <div class="row">
-          <div class="col-lg mb-5">
-            <form class="bg-light rounded p-4 box-shadow">
-              <div class="form-group">
-                <label for="inputClienteNome">Nome</label>
-                <input type="text" class="form-control" id="inputClienteNome" placeholder="Digite seu nome aqui">
-              </div>
-              <div class="form-group">
-                <label for="inputClienteEmail">Email</label>
-                <input type="email" class="form-control" id="inputClienteEmail" placeholder="Digite seu email aqui">
-              </div>
-              <div class="form-group">
-                <label for="inputClienteMensagem">Mensagem</label>
-                <textarea  id="inputClienteMensagem" class="form-control" rows="4" placeholder="Digite sua mensagem aqui"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
-            </form>
-          </div>
-          <div class="col-lg">
-            <h2 class="h6">NOSSO ENDERECO</h2>
-            <a href="#">
-              <img class="img-fluid box-shadow rounded mb-4" src="./img/mapa.png" alt="Endereco da empresa">
-            </a>
-            <h2 class="h6">DADOS DE CONTATO</h2>
-            <ul class="list-unstyled text-secondary">
-              <li>caravan@caravan.com.br</li>
-              <li>21 99999-9999</li>
-              <li>De Seg. a Sex. das 8h as 18h</li>
-            </ul>
-            <h4 class="h6">REDES SOCIAIS</h4>
-            <ul class="list-unstyled d-flex list-social-media ">
-              <li><a href="#" class="btn btn-outline-secondary btn-block">Facebook</a></li>
-              <li><a href="#" class="btn btn-outline-secondary btn-block">Twitter</a></li>
-              <li><a href="#" class="btn btn-outline-secondary btn-block">Youtube</a></li>
-            </ul>
-          </div>
-        </div>
+        <form class="col-lg-6" action="">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputNome">Nome</label>
+              <input type="text" class="form-control" id="inputNome" placeholder="Digite aqui seu Nome Comleto">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputCPF">CPF</label>
+              <input type="text" class="form-control" id="inputCPF" placeholder="xxx.xxx.xxx-xx">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputCPF" placeholder="Digite aqui seu Email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputSenha">Senha</label>
+              <input type="password" class="form-control" id="inputSenha" placeholder="Digite aqui sua Senha">
+            </div>
+            <div class="form-group col-12">
+              <label for="inputEndereco">Endereco</label>
+              <input type="text" class="form-control" id="ïnputEndereco" placeholder="Digite aqui seu Numero, nome da Rua e Bairro">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputCidade">Cidade</label>
+              <input type="text" class="form-control" id="inputCidade" placeholder="Digite aqui sua Cidade">
+            </div>
+            <div class="form-group col-md-3 col-6">
+              <label for="inputEstado">Estado</label>
+              <select class="form-control" id="inputEstado">
+                <option value="">Selecione o Estado</option>
+                <option value="">Bahia</option>
+                <option value="">Fortaleza</option>
+                <option value="">Alagoas</option>
+                <option value="">Ceara</option>
+              </select>
+            </div>
+            <div class="form-group col-md-3 col-6">
+              <label for="inputCep">Cep</label>
+              <input type="text" class="form-control" id="inputCep" placeholder="Digite aqui seu Cep">
+            </div>
+          </div>    
+        </form>
       </div>
+     </section>
 
-    </section>
-    <!-- Collapse -->
-    <section class="container">
-      <div class="my-5 text-center">
-        <span class="h6 d-block">
-          AINDA ESTA COM DUVIDAS?
-          <h2 class="display-4 text-primary">Perguntas Freguentes</h2>
-        </span>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-mb-6" id="perguntasFrequentes" data-children=".pergunta">
-          <div class="pergunta py-2">
-            <a class="lead" data-toggle="collapse" href="#pergunta1" aria-expanded="true" aria-controls="pergunta1">E possivel cancelar a viagem? </a>
-            <div id="pergunta1" class="collapse show" data-parent="#perguntasFrequentes" role="tabpanel">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem veritatis, rerum harum et ratione id quae vel, illum sequi quaerat officiis quam reiciendis animi ipsum labore voluptatem suscipit distinctio qui.</p>
-            </div>
-          </div>
-          <div class="dropdown-divider"></div>
-          <div class="pergunta py-2">
-            <a class="lead" data-toggle="collapse"  href="#pergunta2" aria-expanded="true" aria-controls="pergunta2">Qual a garantia que tenho de perder o voo?</a>
-            <div id="pergunta2" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem veritatis, rerum harum et ratione id quae vel, illum sequi quaerat officiis quam reiciendis animi ipsum labore voluptatem suscipit distinctio qui.</p>
-            </div>
-          </div>
-          <div class="dropdown-divider"></div>
-          <div class="pergunta py-2">
-            <a class="lead" data-toggle="collapse"  href="#pergunta3" aria-expanded="true" aria-controls="pergunta3">Qual a principal forma de viagem?</a>
-            <div id="pergunta3" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem veritatis, rerum harum et ratione id quae vel, illum sequi quaerat officiis quam reiciendis animi ipsum labore voluptatem suscipit distinctio qui.</p>
-            </div>
-          </div>
-          <div class="dropdown-divider"></div>
-          <div class="pergunta py-2">
-            <a class="lead" data-toggle="collapse"  href="#pergunta4" aria-expanded="true" aria-controls="pergunta4">Qual melhor destino de viagem?</a>
-            <div id="pergunta4" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem veritatis, rerum harum et ratione id quae vel, illum sequi quaerat officiis quam reiciendis animi ipsum labore voluptatem suscipit distinctio qui.</p>
-            </div>
-          </div>
-          <div class="dropdown-divider"></div>
-          <div class="pergunta">
-            <a class="lead" data-toggle="collapse" href="#pergunta5" aria-expanded="true" aria-controls="pergunta5">Voces dao descontos para grupos grandes?</a>
-            <div id="pergunta5" class="collapse"  data-parent="#perguntasFrequentes" role="tabpanel">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem veritatis, rerum harum et ratione id quae vel, illum sequi quaerat officiis quam reiciendis animi ipsum labore voluptatem suscipit distinctio qui.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="dropdown-divider"></div>
-      <div class="text-center my-4">
-        <p class="small m-1">FALE CONOSCO PARA MAIS DUVIDAS</p>
-        <a class="btn btn-primary btn-lg"href="contato.html">Entre em Contato</a>
-      </div>
-    </section>
+
      <!-- Footer -->
      <footer class="bg-dark text-white mt-5">
       <div class="container py-4">
