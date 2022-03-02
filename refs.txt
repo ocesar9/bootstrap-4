@@ -12,3 +12,4 @@ Forms -> https://getbootstrap.com/docs/4.0/components/forms/
 Table -> https://getbootstrap.com/docs/4.0/content/tables/
 Badge -> https://getbootstrap.com/docs/4.0/components/badge/
 Borders -> https://getbootstrap.com/docs/4.0/utilities/borders/
+Grid -> https://getbootstrap.com/docs/4.0/layout/grid/
